@@ -12,7 +12,7 @@ To provide access to the `docker.sock` you need to mount it into the container u
 
     docker run -p 3000:3000 \
       -v /var/run/docker.sock:/var/run/docker.sock \
-      centurylinklabs/coreos-cli-wetty
+      centurylink/coreos-cli-wetty
 
 ## fleetctl
 The Fleet CLI communicates with the Etcd API over HTTP. The Etcd endpoint is specified by setting the
@@ -23,7 +23,7 @@ the `-e` flag on the `docker run` command if necessary.
     docker run -p 3000:3000 \
       -v /var/run/docker.sock:/var/run/docker.sock \
       -e FLEETCTL_ENDPOINT=http://17.1.0.10:4001 \
-      centurylinklabs/coreos-cli-wetty
+      centurylink/coreos-cli-wetty
 
 ## Wetty
 Once the container is running, the Wetty terminal can be accessed by browsing to [http://localhost:3000]
