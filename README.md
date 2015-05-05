@@ -1,4 +1,6 @@
 # Dockerized Wetty for CoreOS CLIs
+[![](https://badge.imagelayers.io/centurylink/coreos-cli-wetty.svg)](https://imagelayers.io/?images=centurylink/coreos-cli-wetty:latest 'Get your own badge on imagelayers.io')
+
 This image provides a [Wetty](https://github.com/krishnasrinivas/wetty) terminal
 with access to the following CoreOS command-line tools:
 
