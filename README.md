@@ -8,6 +8,10 @@ with access to the following CoreOS command-line tools:
 * `fleetctl`
 * `etcdctl`
 
+## NOTE
+
+This repo is no longer being maintained. Users are welcome to fork it, but we make no warranty of its functionality.
+
 ## docker
 The Docker CLI requires access to the `docker.sock` in the host OS in order to communicate with the Docker daemon.
 To provide access to the `docker.sock` you need to mount it into the container using the `-v` flag:
